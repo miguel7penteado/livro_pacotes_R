@@ -1,0 +1,15 @@
+bookdown::gitbook:
+  css: style.css
+  includes:
+    in_header: [ga_script.html]
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><strong><a href="./">R packages</a></strong></li>
+    edit: https://github.com/hadley/r-pkgs/edit/master/%s
+    sharing:
+      github: yes
+      facebook: no
+      twitter: no
+      all: []

@@ -1,0 +1,28 @@
+--- 
+title: "R Packages"
+author: ["Hadley Wickham", "Jennifer Bryan"]
+knit: "bookdown::render_book"
+description: >
+  This book will teach you how to create a package, the fundamental unit of
+  shareable, reusable, and reproducible R code.
+
+site: bookdown::bookdown_site
+url: 'https\://r-pkgs.org/'
+github-repo: hadley/r-pkgs
+twitter-handle: hadley
+cover-image: images/cover.png
+
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+
+---
+
+# R packages {-}
+
+<img src="images/cover.png" width="250" height="366" align="right" alt="Cover image" />
+
+Packages are the fundamental units of reproducible R code. They include reusable R functions, the documentation that describes how to use them, and sample data. In this book you'll learn how to turn your code into packages that others can easily download and use. Writing a package can seem overwhelming at first. So start with the basics and improve it over time. It doesn't matter if your first version isn't perfect as long as the next version is better.
+
+This is where we are developing the 2nd edition of this book. The 1st edition remains available at <http://r-pkgs.had.co.nz/>.

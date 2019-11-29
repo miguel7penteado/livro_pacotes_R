@@ -1,0 +1,40 @@
+book_filename: r-pkgs
+repo: https://github.com/hadley/r-pkgs/
+delete_merged_file: true
+new_session: true
+
+rmd_files: [
+  "index.Rmd",
+  
+  "Preface.Rmd",
+  
+  "Introduction.Rmd",
+  "Whole-game.Rmd",
+  "Setup.Rmd",
+  "Structure.Rmd",
+  "Workflow101.Rmd",
+  
+  "code.Rmd",
+  "metadata.Rmd",
+  "man.Rmd",
+  "vignettes.Rmd",
+  "testing.Rmd",
+  "namespace.Rmd",
+  "data.Rmd",
+  "src.Rmd",
+  "inst.Rmd",
+  "misc.Rmd",
+  
+  "git.Rmd",
+  "check.Rmd",
+  "release.Rmd",
+]
+
+language:
+  label:
+    fig: "FIGURE "
+    tab: "TABLE "
+  ui:
+    edit: "Edit"
+    chapter_name: "Chapter "
+    
